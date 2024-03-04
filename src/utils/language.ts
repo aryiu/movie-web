@@ -20,6 +20,7 @@ const defaultLanguageCodes: string[] = [
   "bn-BD",
   "cs-CZ",
   "ca-AD",
+  "ca-ES",
   "de-DE",
   "el-GR",
   "en-US",
@@ -72,6 +73,11 @@ const extraLanguages: Record<string, LocaleInfo> = {
     code: "tok",
     name: "Toki pona",
     nativeName: "Toki pona",
+  },
+   caVl: {
+    code: "ca-ES",
+    name: "Catalan (Valencian)",
+    nativeName: "Català (valencià)",
   },
 };
 
